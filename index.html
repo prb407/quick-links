@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quick Links</title>
+    <link href="https://fonts.googleapis.com/css?family=Verdana" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <style>
+        /* Modal Structure */
+
+        html,
+        body {
+            text-align: center;
+            font-family: "Verdana", sans-serif;
+            font-size: 14px;
+            margin: 0;
+            max-height: 200px;
+            padding: 0;
+            max-width: 300px;
+        }
+
+        h1 {
+            font-family: "Verdana", monospace;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0;
+            color: #2f5876;
+        }
+
+        a:link,
+        a:visited {
+            color: #000000;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        img {
+            width: 30px;
+        }
+
+        .modal-header {
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+        }
+
+        .modal-content {
+            padding: 0 10px;
+        }
+
+        .modal-icons {
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100%;
+        }
+
+        .logo {
+            padding: 16px;
+        }
+
+        .logo-icon {
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+
+        .version {
+            color: #444;
+            font-size: 18px;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px;
+        }
+
+        .flex {
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 70px;
+        }
+
+        .flex:hover {
+            opacity: 0.4;
+        }
+
+        .flex .fa {
+            font-size: 31px;
+            color: #2f5876;
+        }
+    </style>
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <div class="modal-content">
+        <p>Quick Links</p>
+    </div>
+    <div class="modal-icons">
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://www.linkedin.com/in/pritesh-bhanderi/" target="_blank">
+                    <i class="fa fa-globe" style="color:darksalmon "></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://twitter.com/prb407" target="_blank">
+                    <i class="fa fa-twitter" style="color:darksalmon "></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.facebook.com/pritz.bhanderi/" target="_blank">
+                    <i class="fa fa-facebook" style="color:darksalmon "></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://github.com/prb407" target="_blank">
+                    <i class="fa fa-github" style="color:darksalmon "></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
